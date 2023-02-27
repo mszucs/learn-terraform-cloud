@@ -13,3 +13,8 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "my_instance_name" {
+  description = "EC2 instance name added by me"
+  default     = "Provisioned by MICK"
+}
+
